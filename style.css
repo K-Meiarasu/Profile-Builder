@@ -1,0 +1,314 @@
+.header{
+    background-image: url("/home/meiarasu/Desktop/Neo/Training/profile/head.jpg");
+    background-size: 100%;
+}
+body{
+    background-color: rgb(227, 233, 150);
+}
+img{
+    border-radius: 45%;
+}
+h1{
+    text-align: left;
+}
+p{
+    font-size: 15px;
+}
+*{
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+    color: rgb(37, 37, 37);
+}
+.left1{
+    width: 49.5%;
+    height: 900px;
+    padding: 15px;
+    border: 0.5px solid black;
+    box-shadow: 2px 2px gray;
+    text-align: left;
+}
+.right{
+    width: 49.5%;
+    height: 900px;
+    padding: 15px;
+    border: 0.5px solid black;
+    box-shadow: 2px 2px gray;
+    text-align: left;
+    line-height: 1px;
+}
+.head{
+    width: 190px;
+    height: 275px;
+    font-family: fantasy;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+}
+.info{
+    width: 190px;
+    height: 190px;
+    font-family: fantasy;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+}
+.soc{
+    width: 125px;
+    height: 175px;
+    padding: 10px;
+    font-family: fantasy;
+    margin: 20px;
+    color: white;
+}
+.like{
+    width: 150px;
+    height: 195px;
+    padding: 10px;
+    font-family: fantasy;
+    margin: 20px;
+    color: white;
+}
+.int{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    height: 480px;
+    justify-content: space-evenly;
+}
+.int1{
+    width: 60%;
+    height: 450px;
+    padding: 10px;
+    border: 0.5px solid black;
+    box-shadow: 2px 2px gray;
+    font-family: fantasy;
+    margin: 10px;
+    justify-content: space-evenly;
+    text-align: left;
+}
+.int2{
+    width: 900px;
+    height: 450px;
+    padding: 10px;
+    border: 0.5px solid black;
+    box-shadow: 2px 2px gray;
+    font-family: fantasy;
+    margin: 10px;
+    justify-content: space-evenly;
+    text-align: left;
+}
+.list{
+    list-style: disc;
+}
+.create{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.segment1{
+    width: 175px;
+    height: 200px;
+    font-family: fantasy;
+    margin: 10px;
+    text-align: left;
+}
+.segment2{
+    width: 175px;
+    height: 200px;
+    font-family: fantasy;
+    margin: 10px;
+    text-align: left;
+}
+.soft{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.segment3{
+    width: 55px;
+    height: 200px;
+    font-family: fantasy;
+    margin: 20px;
+    text-align: left;
+    flex-direction: column;
+}
+.segment4{
+    width: 135px;
+    height: 200px;
+    font-family: fantasy;
+    margin: 20px;
+    text-align: left;
+}
+.so1{
+    width: 10%;
+    height: 25%;
+    padding: 10p;
+    margin: 20px;
+    font-family: fantasy; 
+}
+.so2{
+    width: 10%;
+    height: 25%;
+    padding: 10p;
+    margin: 20px;
+    font-family: fantasy; 
+}
+.so3{
+    width: 10%;
+    height: 25%;
+    padding: 10p;
+    margin: 20px;
+    font-family: fantasy; 
+}
+.so4{
+    width: 10%;
+    height: 25%;
+    padding: 10p;
+    margin: 20px;
+    font-family: fantasy; 
+}
+.ss1{
+    width: 100%;
+    height: 25%;
+    padding: 10p;
+    margin: 20px;
+    font-family: fantasy; 
+}
+.ss2{
+    width: 100%;
+    height: 25%;
+    padding: 10p;
+    margin: 20px;
+    font-family: fantasy; 
+}
+.ss3{
+    width: 100%;
+    height: 25%;
+    padding: 10p;
+    margin: 20px;
+    font-family: fantasy; 
+}
+.ss4{
+    width: 100%;
+    height: 25%;
+    padding: 10p;
+    margin: 20px;
+    font-family: fantasy; 
+}
+.hobb{
+    width: 100%;
+    height: 230px;
+    padding: 10px;
+    border: 0.5px solid black;
+    box-shadow: 2px 2px gray;
+    font-family: fantasy;
+    margin: 20px;
+    text-align: left;
+    justify-content: space-between;
+}
+.item{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.item1{
+    width: 10%;
+    height: 25%;
+    padding: 10p;
+    margin: 20px;
+    font-family: fantasy;
+    text-align: center;
+}
+.item2{
+    width: 10%;
+    height: 25%;
+    padding: 10p;
+    margin: 20px;
+    font-family: fantasy;
+    text-align: center;
+}
+.item3{
+    width: 10%;
+    height: 25%;
+    padding: 10p;
+    margin: 20px;
+    font-family: fantasy;
+    text-align: center;
+}
+.item4{
+    width: 10%;
+    height: 25%;
+    padding: 10p;
+    margin: 20px;
+    font-family: fantasy;
+    text-align: center;
+}
+.item5{
+    width: 10%;
+    height: 25%;
+    padding: 10p;
+    margin: 20px;
+    font-family: fantasy;
+    text-align: center;
+}
+.item6{
+    width: 10%;
+    height: 25%;
+    padding: 10p;
+    margin: 20px;
+    font-family: fantasy;
+    text-align: center;
+}
+.item7{
+    width: 10%;
+    height: 25%;
+    padding: 10p;
+    margin: 20px;
+    font-family: fantasy;
+    text-align: center;
+}
+.spec{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.spec1{
+    width: 33%;
+    height: 30%;
+    padding: 10px;
+    margin: 20px;
+    font-family: fantasy;
+    text-align: center;
+}
+.spec2{
+    width: 33%;
+    height: 30%;
+    padding: 10px;
+    margin: 20px;
+    font-family: fantasy;
+    text-align: center;
+    align-self: center;
+}
+.spec3{
+    width: 33%;
+    height: 30%;
+    padding: 10px;
+    margin: 20px;
+    font-family: fantasy;
+    text-align: center;
+    align-self: flex-end;
+}
+.checked{
+    color:orangered;
+}
